@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 17px;
+    padding-top: 23px;
+    background-color: #f5d0e6;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.menu {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: salmon;
+}
+
+.branco {
+    width: 120px;
+}
+
+.foto {
+    border-radius: 30px;
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+}
